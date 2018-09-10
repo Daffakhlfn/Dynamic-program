@@ -23,5 +23,15 @@ public class Praktek1 {
         String identitas = "Mohammad Daffa Khalfani Sujatmiko / X RPL 3 / 23";
         
         tampilJudul(identitas);
+        int n = tampilInput();
+    }
+    private static int tampilInput()
+    {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Bilangan ke-: ");
+        int n = scanner.nextInt();
+        
+        return n;
     }
 }
